@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScholarSearch - Scholarship Searching</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+  <body>
+    <!-- https://i.ibb.co/Lgtdz7R/image-removebg-preview-3.png -->
+
+    <nav id="navbar">
+      <img
+        id="logo"
+        src="https://i.ibb.co/Lgtdz7R/image-removebg-preview-3.png"
+        height="50px"
+        width="150px"
+      />
+      <div class="items">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="items"><a href="map.html">Map</a></div>
+      <div class="items"><a href="scholarships.html">Database</a></div>
+
+    </nav>
+
+
+<!-- Full width -->
+<a href="scholarshipData.json" download>
+<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>
+</a>
+      <div id="results-container"></div>
+
+      <!-- ignore example card -->
+      <div id="example-card">
+        <h3 class="result-title">
+          <a href="" class="website-link">PLACEHOLDER</a>
+        </h3>
+        <h4 class="result-price">Price HERE</h4>
+        <h4 class="result-deadline">Deadline HERE</h4>
+        <p class="result-description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+          aperiam, et doloribus expedita, culpa omnis voluptas suscipit rem,
+          dolores eaque ducimus odio amet distinctio consequuntur. Id debitis et
+          saepe fuga.
+        </p>
+      </div>
+    </div>
+
+    <script src="database.js"></script>
+    <script src="list.js"></script>
+  </body>
+</html>
